@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Favourite food</title>
+    </head>
+    <body>
+        <main>
+            <h1>Here is my favourite food: Breadfruit</h1>
+            <img src=https://www.gardeningknowhow.com/wp-content/uploads/2018/03/breadfruit-seed-400x400.jpg alt="Breadfruit">
+        <p>Everyone should try fresh <b>breadfruit</b> from the Caribbean. It has multiple uses for <i>breakfast, lunch and dinner</i>. 
+            <br>There are many ways to eat breadfruit including:
+        </p>
+            <ul>
+                <li>Roasted</li>
+                <li>Fried</li>
+                <li>Boiled</li>
+            </ul>
+            <p><i>"Breadfruit makes the world go round."</i><b>anonymous</b></p>
+        </main>
+        <h2>Watch this short video on how to cook breadfruit</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LmZJBHyJjEo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <form onsubmit="submitForm()">
+            <h2>Tell us how you like your breadfruit</h2>
+            <label for="name">First name</label> 
+            <input type="text" id="name" name="First name" placeholder="first name">  
+            <label for="name">Surname</label>
+            <input type="text" id="name" name="Surname" placeholder="Surname">
+            <br>   
+            <label for="Preference">How do you like yours?</label>
+            <br>
+            <input type="checkbox" id="list" name="Preference"> Roasted
+            <br>
+            <input type="checkbox" id="list" name="Preference"> Fried
+            <br>
+            <input type="checkbox" id="list" name="Preference"> Boiled
+            <br>
+            <label for="Status">Where were you born?</label>
+            <br>
+            <input type="radio" id="list" name="status"> Caribbean
+            <br>
+            <input type="radio" id="list" name="status"> Africa
+            <br>
+            <input type="radio" id="list" name="status"> UK
+            <br>
+            <input type="radio" id="list" name="status"> Other
+            <br>
+            <label for="textarea">Let us know what are your some of your favourite foods</label>
+            <textarea id="textarea" name="favourites"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+        
+    </body>
+
+</html>
